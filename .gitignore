@@ -1,0 +1,17 @@
+# Secrets and personal data: never commit these.
+server/.env
+firmware/wifi.txt
+firmware/bridge/config.h
+server/data/
+*.bin
+
+# Build output
+firmware/bridge/build/
+firmware/paddle/build/
+__pycache__/
+
+# Not part of the game
+.claude/
+.DS_Store
+reports/
+research_notes/
